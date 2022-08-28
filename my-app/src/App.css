@@ -1,0 +1,26 @@
+:root {
+  --myFont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  --secondFont: Arial, Helvetica, sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: beige;
+  background-color: orangered;
+  font-family: var(--secondFont);
+}
+
+.profile-container {
+  border: 2px solid salmon;
+  background-color: antiquewhite;
+  margin: 0px 350px;
+}
+
+h1, h2 {
+  font-family: var(--myFont);
+  background-color: rgb(183, 230, 136);
+  border: 2px solid salmon;
+  margin: 0px 350px;
+}
