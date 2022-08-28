@@ -7,7 +7,6 @@
 }
 
 body {
-  background-color: beige;
   background-color: orangered;
   font-family: var(--secondFont);
 }
@@ -23,4 +22,11 @@ h1, h2 {
   background-color: rgb(183, 230, 136);
   border: 2px solid salmon;
   margin: 0px 350px;
+}
+
+.darkMode .profile-container {
+  border: 2px solid white;
+  background-color: rgb(54, 52, 52);
+  color: antiquewhite;
+  
 }

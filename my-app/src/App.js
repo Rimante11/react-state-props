@@ -4,6 +4,9 @@ import Profile from './components/Profile';
 
 function App() {
   //skapar data
+
+  let [darkMode, setDarkMode] = useState(false);
+
   let data = [
     {
       firstName:"Batman",
@@ -38,10 +41,16 @@ function App() {
   ];
 
   return (
-    <div className="App">
+    <div className={`App ${darkMode ? "darkMode" : null}`}>
       <header className="App-header">
        <h1>Lektion 2</h1>
-       <h2>React state & props</h2>
+       <h2>React state and props</h2>
+       <button onClick={() => {
+          setDarkMode(!darkMode)
+        }}
+       >
+        Dark mode
+       </button>
        {
         data.map((eachPerson => {
           return <Profile person={eachPerson}/>
