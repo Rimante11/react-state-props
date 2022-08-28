@@ -1,6 +1,7 @@
 # Getting Started with Create React App
+![Screenshot (412)](https://user-images.githubusercontent.com/92310100/187083295-416acfca-9ab5-41e7-9380-87ae1bc910aa.png)
 
-![Screenshot (408)](https://user-images.githubusercontent.com/92310100/187082577-a77eadec-5833-433b-a3da-a3a446fc4a9d.png)
+
 Övningsuppgift 2 - React state & props
 
 Skapa en array i App.js innehållandes fem person-objekt. Varje objekt ska innehålla förnamn, efternamn, ålder och hobby.
